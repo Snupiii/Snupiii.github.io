@@ -199,10 +199,10 @@ body{
 		
 	}
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1013px){
 	
 	body{
-		padding-left:0;
+				padding-left:140px;
 		padding-right:-10px;
 		font-family: 'Oswald', sans-serif;
 		background-color:#ffffff;
@@ -215,52 +215,61 @@ body{
 		border: 5px solid #282828;
 	}
 	.kj{
-		position:absolute;
+		padding:0;
+		position:fixed;
 		z-index:1;
 		top:10px;
-		padding-left:22px;
+		left:0;
 	}
 	.kj img{
 		border:0;
-		height: 250px;
+		height: 140px;
 		
 	}
 	.pasek {
-		margin-left:725px;
-		margin-top: -25px;
+		margin:0;
+		margin-top:237px;
 		height: 20px;
-		width: 100%;
-		position: absolute;
+		width: 130px;
+		position: fixed;
 		z-index: 1;
-
+		top: 0;
+		left: 0px;
 		background-color: #282828;
 	}
 	.menu {
-		margin-left:725px;
-		margin-top: -5px;
-		height: 107px;
-		width: 290px;
-		position: absolute;
+		margin:0;
+		margin-top:272px;
+		height: 135px;
+		width: 154px;
+		position: fixed;
 		z-index: 1;
+		top:0;
+		left:-10px;
 		background-color: #ffffff;
-
+		transform: rotate(90deg);
 	}
 	ul {
 		list-style-type: none;
-		padding:0px;
-		word-spacing: 13px;
-	}
-	ul li {
-		display:inline;
+		padding:0;
 	}
 	.menu a {
 		text-decoration: none;
-		font-size: 30px;
+		font-size: 45px;
 		color: #282828;
-
-
+		display: block;
+		line-height:45px;
 	}
-
+	
+	.klocek{
+		position:absolute;
+		height:97px;
+		width:100%;
+		top:5px;
+		left:700px;
+		background-color: #282828;
+	}
+	
 	.klocek2{
 		position:absolute;
 		height:397px;
@@ -272,10 +281,10 @@ body{
 	
 	.klocek3{
 		position:absolute;
-		height:495px;
+		height:305px;
 		width:350px;
-		top:208px;
-		left:-350px;
+		top:507px;
+		left:903px;
 		background-color: #282828;
 	}
 	.klocek4{
@@ -288,10 +297,10 @@ body{
 	}
 	.klocek5{
 		position:absolute;
-		height:497px;
+		height:400px;
 		width:350px;
-		top:919px;
-		left:-350px;
+		top:1318px;
+		left:903px;
 		background-color: #282828;
 	}
 
@@ -363,50 +372,80 @@ body{
 		grid-row: 13 / span 6;
 	}
 
+	.pasek2 {
+		height: 127px;
+		width: 20px;
+		position: absolute;
+		top:1772px;
+		bottom: 0;
+		left: 0px;
+		background-color: #282828;
+	}
 	.kontakt {
-		margin-top:40px;
+		margin:0;
 		height: 135px;
-		width: 312px;
+		width: 133px;
 		position: absolute;
 		top:1764px;
-		margin-left:506px;
+		left: 35px;
 		background-color: #ffffff;
-		padding-left:48px;
+		padding-left:45px;
 		padding-top:10px;
-
 	}
-
+	.twitter{
+		position:absolute;
+		margin-left:-42px;
+		margin-top:-1px;
+		width:36px;
+		height:36px;
+	}
 	.twitter img{
 	border:0;
 	}
-
+	.facebook{
+		position:absolute;
+		margin-left:-42px;
+		margin-top:-1px;
+		width:36px;
+		height:36px;	
+	}
 	.facebook img{
 	border:0;
 	}
-
+	.insta{
+		position:absolute;
+		margin-left:-42px;
+		margin-top:-1px;
+		width:36px;
+		height:36px;	
+	}
 	.insta img{
 	border:0;
 	}
-
-	.txt{
-		display:none;
+	.kontakt a {
+		text-decoration: none;
+		letter-spacing: -1px;
+		font-size: 28px;
+		color: #282828;
+		display: block;
+		line-height:45px;
 	}
-	.kontakt img{
-		margin-top:15px;
-		margin-left:45px;
+		.kontakt img{
+		margin-top:0;
+		margin-left:0;
 		display:block;
-		float:left;
-		width:45px;
-		height:45px;
+
+		width:36px;
+		height:36px;
 		
 	}
 
 }
 
-@media only screen and (min-width: 1400px){
+@media only screen and (min-width: 1375px){
 	
 	body{
-		padding-left:0;
+		padding-left:140px;
 		padding-right:0;
 		font-family: 'Oswald', sans-serif;
 		background-color:#ffffff;
@@ -432,7 +471,7 @@ body{
 	}
 	.pasek {
 		margin:0;
-		margin-top: 20%;
+		margin-top:272px;
 		height: 135px;
 		width: 20px;
 		position: fixed;
@@ -443,14 +482,15 @@ body{
 	}
 	.menu {
 		margin:0;
-		margin-top: 20%;
+		margin-top:272px;
 		height: 135px;
 		width: 154px;
 		position: fixed;
 		z-index: 1;
 		top: 0;
-		left: 35px;
+		left: 28px;
 		background-color: #ffffff;
+		transform: rotate(0deg);
 
 	}
 	ul {
