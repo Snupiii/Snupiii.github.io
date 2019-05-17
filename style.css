@@ -331,6 +331,9 @@
 		left:703px;
 		background-color: #282828;
 	}
+		 .klocek6{
+display:none;
+	}
 	 .klocek7{
 display:none;
 	}
@@ -555,11 +558,12 @@ display:none;
 	}
 		.klocek6{
 		position:absolute;
-		height:97px;
+		height:90px;
 		width:125%;
 		top:1723px;
 		left:506px;
 		background-color: #282828;
+		display:block;
 	}
 
 	 .klocek7{
@@ -810,11 +814,12 @@ display:none;
 	}
 	.klocek6{
 		position:absolute;
-		height:97px;
+		height:90px;
 		width:125%;
 		top:1723px;
 		left:506px;
 		background-color: #282828;
+		display:block;
 	}
 		 .klocek7{
 display:none;
