@@ -14,7 +14,7 @@
 	}
 	.kj{
 		padding:0;
-		position:fixed;
+		position:absolute;
 		z-index:1;
 		top:10px;
 		left:0;
@@ -41,7 +41,7 @@
 		margin-top:10px;
 		height: 135px;
 		width: 154px;
-		position: fixed;
+		position: absolute;
 		z-index: 1;
 		top:0;
 		left:150px;
@@ -65,7 +65,7 @@
 		height:228px;
 		width:100%;
 		top:5px;
-		left:500px;
+		left:400px;
 		background-color: #282828;
 	}
 	
@@ -74,7 +74,7 @@
 		height:228px;
 		width:450px;
 		top:237px;
-		left:503px;
+		left:403px;
 		background-color: #282828;
 	}	
 	
@@ -83,7 +83,7 @@
 		height:345px;
 		width:450px;
 		top:469px;
-		left:503px;
+		left:403px;
 		background-color: #282828;
 	}
 	.klocek4{
@@ -91,7 +91,7 @@
 		height:250px;
 		width:100%;
 		top:818px;
-		left:502px;
+		left:402px;
 		background-color: #282828;
 	}
 	.klocek5{
@@ -99,7 +99,7 @@
 		height:319px;
 		width:550px;
 		top:1072px;
-		left:503px;
+		left:403px;
 		background-color: #282828;
 	}
  	.klocek6{
@@ -107,7 +107,7 @@
 		height:325px;
 		width:550px;
 		top:1395px;
-		left:503px;
+		left:403px;
 		background-color: #282828;
 	}
 	 .klocek7{
@@ -115,7 +115,7 @@
 		height:595px;
 		width:550px;
 		top:1724px;
-		left:503px;
+		left:403px;
 		background-color: #282828;
 	}
 
@@ -203,10 +203,11 @@
 		height: 135px;
 		width: 312px;
 		position: absolute;
-		top:2365px;
-		margin-left:90px;
+		top:2450px;
+		margin-left:0;
 		background-color: #ffffff;
-		padding-left:48px;
+		padding-left:0px;
+		left:47px;
 		padding-top:10px;
 
 
@@ -446,7 +447,7 @@
 		background-color: #ffffff;
 		padding-left:48px;
 		padding-top:10px;
-
+	left:auto;
 
 	}
 
